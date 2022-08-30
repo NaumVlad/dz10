@@ -20,7 +20,7 @@ a {
 
 .header {
   min-height: 700px;
-  padding: 40px 0 140px 0;
+  padding: 75px 0 140px 0;
   background-color: #EEEFF1;
 }
 
@@ -31,7 +31,7 @@ a {
 }
 
 .header-navbar {
-  padding-bottom: 162px;
+  margin-bottom: 144px;
 }
 
 .header-navbar__list {
@@ -42,21 +42,21 @@ a {
   letter-spacing: 0.1em;
 }
 
+.header-navbar__link.active {
+  color: #34547a;
+  font-weight: 500;
+}
+
 .header-content {
-  padding-bottom: 65px;
+  margin-bottom: 57px;
+  max-width: 540px;
 }
 
 .header-content__title {
-  padding-bottom: 60px;
+  margin: 60px 0 35px 0;
   font-weight: 500;
   font-size: 48px;
 }
-
-.header-content__description {
-  width: 540px;
-}
-
-.header-content__connection {}
 
 .header-content__link {
   display: flex;
@@ -74,8 +74,8 @@ a {
 .information {
   max-width: 540px;
   text-align: center;
-  margin: 0 auto;
-  padding: 112px 0 100px 0;
+  margin: 104px auto;
+  /*   padding: 105px 0 100px 0; */
 }
 
 .information-title {
