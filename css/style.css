@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  min-height: 700px;
+  background-color: #EEEFF1;
+}
+
+.conteiner {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header-navbar {}
+
+.header-navbar__list {}
+
+.header-navbar__item {}
+
+.header-content {}
+
+.header-content__title {}
+
+.header-content__description {}
+
+.header-content__connection {}
+
+.header-content__link {}
