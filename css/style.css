@@ -58,28 +58,39 @@ a {
   font-size: 48px;
 }
 
+.header-content__description {
+  color: #727272;
+}
+
 .header-content__link {
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 225px;
   min-height: 65px;
-  padding: 20px 40px;
   text-align: center;
   letter-spacing: 0.1em;
   background-color: #34547a;
   color: #ffffff;
 }
 
-.information {
-  max-width: 540px;
+.about {
+  background-color: #F9F9F9;
   text-align: center;
-  margin: 104px auto;
-  /*   padding: 105px 0 100px 0; */
+  padding: 104px 0;
 }
 
-.information-title {
-  padding-bottom: 50px;
+.conteiner--sm {
+  max-width: 540px;
+}
+
+.about-title {
+  padding-bottom: 32px;
+  line-height: 38px;
   font-weight: 500;
   font-size: 32px;
+}
+
+.about-description {
+  color: #727272;
 }
