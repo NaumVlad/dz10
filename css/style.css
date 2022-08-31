@@ -145,6 +145,7 @@ a {
 .video {
   width: 1110px;
   height: 600px;
+  border: 0;
 }
 
 .footer {
@@ -153,8 +154,6 @@ a {
   background-color: #34547A;
   color: #FFFFFF;
 }
-
-.conteiner--footer {}
 
 .footer-title {
   font-weight: 500;
